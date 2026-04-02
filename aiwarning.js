@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AI-generated Warning
 // @namespace    http://tampermonkey.net/
-// @version      3.6
+// @version      3.7
 // @description  When an AI-generated tag is detected on artwork pages of image sites like Pixiv, Sankaku, e-hentai, etc..., display a prominent alert in the lower-left corner.
 // @author       OozoraAhiru
 // @match        https://www.pixiv.net/*/artworks/*
@@ -24,6 +24,7 @@
         'ai-generated', 'ai generated', 'ai_generated',
         'ai-created',   'ai created',   'ai_created',
         'ai art', 'ai artwork', 'ai image',
+        'ai+ps',
         'novelai', 'stable diffusion', 'stablediffusion',
         'midjourney', 'dall-e', 'dalle',
     ];
